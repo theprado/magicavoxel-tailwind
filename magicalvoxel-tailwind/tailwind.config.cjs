@@ -11,6 +11,14 @@ module.exports = {
           "Roboto, sans-serif",
         ],
       },
+      colors: {
+        'primary': '#143AC4',
+        'secondary': '#30C0AA',
+      },
+      screens: {
+        smd: '850px',
+        
+      },
   },
   plugins: [],
 }

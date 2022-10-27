@@ -9,7 +9,7 @@
   </head>
   <body class="m-0 p-0 no-underline font-sans list-none">
    <!-- navbar -->
-<nav class="sticky bg-white font-normal">
+<nav class="sticky bg-white font-normal items-center smd:pl-[100px]">
   <div class="px-6">
     <div class="flex justify-between">
       <div class="flex space-x-4">
@@ -31,9 +31,10 @@
       </div>
 
       <!-- secondary nav -->
-      <div class="hidden md:flex items-center space-x-1">
-        <a href="" class="py-5 px-3">Login</a>
-        <a href="" class="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300">Signup</a>
+      <div class="hidden md:hidden lg:flex items-center space-x-1 gap-5 pr-10 smd:hidden">
+        <a href=""><img src="src/img/twitter.svg" alt=""></a>
+        <a href=""><img src="src/img/facebook.svg" alt=""></a>
+        <a href=""><img src="src/img/youtube.svg" alt=""></a>
       </div>
 
       <!-- mobile button -->
@@ -49,13 +50,16 @@
   </div>
 
   <!-- mobile menu -->
-  <div class="mobile-menu hidden md:hidden">
-    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a>
-    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-300">Pricing</a>
-  </div>
+  <div class="mobile-menu hidden md:hidden lg:hidden smd:hidden m-0 b-0 pl-10 w-max items-center">
+    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">DOWNLOAD</a>
+    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-300">UPDATES</a>
+    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">RESOURCES</a>
+    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-300">COMMUNITY</a>
+  </div> 
 </nav>
-   
-      </body>
+   <section class="relative flex flex-row justify-around items-center w-relative bg-secondary lg:h-[450px] md:h-[250px]">
+
+   </section>
     <script src="src/js/menu.js"></script>
     <script type="module" src=""></script>
   </body>
